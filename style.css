@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: beige;
+    background-repeat: no-repeat;
+    background-position: top center; 
+    background-size: cover;
+    */
+    /*background: color image repeat position/size*/
+    background: url(./assets/bg-mobile.jpg);no-repeat top center/cover;
+}
+body *{
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+#container{
+    width: 360px;
+    height:712px;
+    margin: auto;
+    padding: 100px;
+    margin: 56px auto 0px
+
+}
+
+#profile {
+    text-align: center;
+}
+
+#profile img {
+    width: 100px;
+}
+#profile p {
+    font-weight: 500;
+    line-height: 24px;
+    margin: 8px 0px 16px;
+    color: black;
+}
+/*links*/
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centralizar verticalmente */
+    align-items: center; /* Centralizar horizontalmente */
+    padding: 0;
+}
+
+ul li a {
+    display: block;
+    width: 300px;
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 16px 24px;
+    background-color: #ffc0cb;
+    margin-bottom: 16px; /* Adiciona espaçamento entre os elementos */
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+ul li a:hover{
+    background-color: #c71585;
+}
