@@ -30,7 +30,9 @@ body *{
 }
 
 #profile img {
+   width: 100px;align-items: center; (./assets/avatar.png)
     width: 100px;
+    
 }
 #profile p {
     font-weight: 500;
